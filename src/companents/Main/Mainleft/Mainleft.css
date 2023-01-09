@@ -1,0 +1,95 @@
+.main-left{
+  display: inline-block;
+}
+
+.main-left-img{
+  width: 290px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main-left-inner{
+  margin: 0;
+  padding: 0;
+  margin-left: 85px;
+  transform: translateY(-30px);
+}
+
+.main-left-box-name{
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+  font-weight: 550;
+  font-size: 23px;
+}
+
+.main-left-box-tahallus{
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.main-left-box-job{
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.main-left-button{
+  margin-top: 18px;
+  padding: 7px;
+  font-weight: 600;
+  font-size: 13px;
+  width: 290px;
+  border: 1px solid rgba(0, 0, 0,0.2);
+  border-radius: 7px;
+  background-color: #F6F8FA;
+}
+
+.main-left-button:hover{
+  background-color: rgb(244, 246, 248);
+}
+
+.main-left-box-followers{
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  font-size: 15px;
+  opacity: 0.8;
+  display: flex;
+  gap: 7px;
+}
+
+.main-left-box-followers-span{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.main-left-box-2{
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.main-left-navlink{
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  font-size: 15px;
+  opacity: 0.8;
+  color: black;
+  text-decoration: none;
+}
+
+
+  
+
+
+@media only screen and (max-width: 769px) {
+  .main-left{
+    display: none;
+  }
+}

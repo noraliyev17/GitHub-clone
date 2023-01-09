@@ -1,0 +1,153 @@
+
+header {
+  padding: 14px;
+  background-color: #24292F;
+}
+
+.form-input {
+  width: 280px;
+  padding: 2px 8px;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  color: white;
+  position: relative;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.logo-form-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: inline-block;
+  height: 24px;
+}
+
+.proba {
+  align-items: center;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 36px;
+}
+
+.logo:hover{
+  color: rgba(255, 255, 255,0.6);
+}
+
+.img-box {
+  display: flex;
+  gap: 8px;
+}
+
+.plus-img {
+  margin: 0;
+  padding: 0;
+  width: 25px;
+}
+
+.bxs-down-arrow{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 8px;
+}
+
+.img-shahsiy{
+  border-radius: 50%;
+}
+
+.shahsiy-rasm-box{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.input-iconca{
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255,0.6);
+  color:rgba(255, 255, 255,0.6);
+  position: absolute;
+  left: 338px;
+  cursor:   pointer;
+}
+
+.form-btn{
+  margin: 0 ;
+  padding: 0;
+  height: 30px;
+  padding: 3px 6px;
+}
+
+@media only screen and (max-width: 1246px) {
+
+  header {
+    padding: 14px;
+    background-color: #24292F;
+    width: 1285px;
+  }
+}
+@media only screen and (max-width:887px) {
+
+  header {
+    padding: 14px;
+    background-color: #24292F;
+    width: 886px;
+  }
+}
+@media only screen and (max-width:769px) {
+
+  header {
+    padding: 14px;
+    background-color: #24292F;
+    width: 768px;
+  }
+}
+@media only screen and (max-width:569px) {
+
+  header {
+    padding: 14px;
+    background-color: #24292F;
+    width: 568px;
+  }
+}
+@media only screen and (max-width:429px) {
+
+  header {
+    padding: 14px;
+    background-color: #24292F;
+    width: 428px;
+  }
+}

@@ -1,0 +1,61 @@
+.followers-list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.followers-item-img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0,0.1);
+}
+
+.followers-item{
+  padding-top: 25px;
+}
+
+.followers-item-name{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.99;
+}
+
+.followers-item-name-link{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.followers-btn{
+  margin: 0;
+  padding: 0;
+  width: 76px;
+  height: 28px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0,0.1);
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.followers-item-box{
+ display: flex;
+ justify-content: space-between;
+ width: 880px;
+}
+
+.followers-item{
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.followers-item-a-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}

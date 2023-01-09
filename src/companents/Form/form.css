@@ -1,0 +1,28 @@
+.btn-search{
+    background-color: #24292F;
+    color: aliceblue;
+}
+@media only screen and (max-width: 887px) {
+.btn-search{
+    background-color: #24292F;
+    color: aliceblue;
+    display: none;
+}
+.input-iconca{
+    display: none;
+}
+     }
+     @media only screen and (max-width: 769px) {
+        .btn-search{
+            background-color: #24292F;
+            color: aliceblue;
+            display: none;
+        }
+        .input-iconca{
+            display: none;
+        }
+        .form-input{
+            width: 157px;
+            display: none;
+        }
+             }
