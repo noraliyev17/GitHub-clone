@@ -6,6 +6,7 @@ const Form = ({ malumot, setMalumot }) => {
 
   const [data, setData] = useState("")
 
+  
   useEffect(() => {
     search
   }, [])

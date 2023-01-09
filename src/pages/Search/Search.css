@@ -8,4 +8,5 @@
 .followers-item-box{
     display: flex;
     align-items: center;
+    width: 270px;
 }

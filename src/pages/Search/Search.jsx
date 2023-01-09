@@ -16,7 +16,8 @@ const Search = ({malumot}) => {
   malumot.items ? login = malumot.items[0].login : login
   let image = "T" 
   malumot.items ? image = malumot.items[0].avatar_url : image
- 
+  let link = "" 
+  malumot.items ? link = malumot.items[0].html_url : link
   // if(malumot.items){
   //   setA(true)
   //   setInfo(malumot.items)
@@ -46,7 +47,7 @@ const Search = ({malumot}) => {
               {/* <img className='followers-item-img' src="" alt="avatar" /> */}
               <div className="followers-item-name-box d-flex gap-2 mt-1">
                 <img className='followers-item-img' src={image} alt="" />
-                <p className='followers-item-name'>{login}</p>
+                <p className='followers-item-name'><a className='text-decoration-none text-dark' href={link}>{login}</a></p>
               </div>
             </div>
             <button className='followers-btn'>Unfollow </button>
