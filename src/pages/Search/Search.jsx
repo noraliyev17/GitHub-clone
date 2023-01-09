@@ -11,9 +11,12 @@ const Search = ({malumot}) => {
   
 
 
-  
   console.log(malumot);
-  
+  let login = "" 
+  malumot.items ? login = malumot.items[0].login : login
+  let image = "T" 
+  malumot.items ? image = malumot.items[0].avatar_url : image
+ 
   // if(malumot.items){
   //   setA(true)
   //   setInfo(malumot.items)
@@ -23,7 +26,7 @@ const Search = ({malumot}) => {
     <>
       <ul className='followers-list'>
 
-{
+{/* {
   a ? (malumot.items.map((item)=>{
     return(
       <p key={item.id}>salom</p>
@@ -33,7 +36,7 @@ const Search = ({malumot}) => {
   ):(
     <p>Hayr</p>
   )
-}
+  } */}
 
 {/* {setA(false)} */}
        
@@ -42,8 +45,8 @@ const Search = ({malumot}) => {
             <div className="d-flex gap-4">
               {/* <img className='followers-item-img' src="" alt="avatar" /> */}
               <div className="followers-item-name-box d-flex gap-2 mt-1">
-                <p className='followers-item-name'>	 </p>
-                <p className='followers-item-name-link'></p>
+                <img className='followers-item-img' src={image} alt="" />
+                <p className='followers-item-name'>{login}</p>
               </div>
             </div>
             <button className='followers-btn'>Unfollow </button>

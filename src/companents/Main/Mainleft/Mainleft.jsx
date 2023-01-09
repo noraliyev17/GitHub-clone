@@ -14,11 +14,14 @@ const Mainleft = () => {
     <>
       <div className="main-left">
         <div className="main-left-inner">
-          <img className='main-left-img' src={info.avatar_url} alt="shahsiy_foto" />
+          <img className='main-left-img' src={info.avatar_url} alt="noral1yev_17" />
           <div className="main-left-box">
             <p className='main-left-box-name'>{info.name}</p>
             <p className='main-left-box-tahallus'>{info.login}</p>
-            <p className='main-left-box-job'>{info.bio}</p>
+            <p className='main-left-box-job'><i class='bx bx-map' ></i>    {info.location}</p>
+            <p className='main-left-box-job'><i class='bx bx-buildings' ></i> {info.company}</p>
+             <p className='main-left-box-job'><i class='bx bx-paperclip' ></i> <a className='text-decoration-none' href={info.blog}>http://myurls.co/noral1yev_17</a> </p>
+            <p className='main-left-box-job'><i class='bx bxl-twitter' ></i> {info.twitter_username}</p>
             <button className='main-left-button'>Edit profile</button>
           </div>
           <div className="main-left-box-2">

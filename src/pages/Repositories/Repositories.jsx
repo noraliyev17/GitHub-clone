@@ -24,7 +24,7 @@ const Repositories = () => {
             <div className="repositories-form-box-1">Lenguage   <i className='repository-icon bx bxs-down-arrow'></i></div>
             <div className="repositories-form-box-1">Sort   <i className='repository-icon bx bxs-down-arrow'></i></div>
           </div>
-          <div className='repositories-form-box-2 d-flex align-items-center gap-1'><i class='bx bx-folder-plus'></i>    New</div>
+          <div className='repositories-form-box-2 d-flex align-items-center gap-1'><i class='bx bx-book-add'></i>    New</div>
         </div>
 
         <ul className='repository-list mt-3 pb-4'>

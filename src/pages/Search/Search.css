@@ -1,0 +1,11 @@
+.followers-item-name-box{
+    display: flex;
+    align-items: center;
+}
+.followers-item-img{
+    margin-right: 20px;
+}
+.followers-item-box{
+    display: flex;
+    align-items: center;
+}
